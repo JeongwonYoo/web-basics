@@ -1,6 +1,7 @@
 body {
     padding: 4rem;
     white-space: nowrap;
+    background-color:aliceblue;
 }
 
 .poem {
@@ -21,6 +22,7 @@ body {
     text-align: left;
     font-size: 3rem;
     font-weight: 800;
+    text-shadow: 2px 2px 5px yellow;
 }
 
 .text {
