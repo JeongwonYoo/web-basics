@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나의 첫번째 웹페이지</title>
+    <title>1주차 과제 '시 쓰기'</title>
     <!-- 브라우저 기본 스타일을 reset합니다 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <!-- index.html 페이지에 적용할 스타일시트로 main.css로 연결합니다 -->
@@ -13,8 +13,31 @@
 </head>
 
 <body>
-    <p onclick="popAlert()">Hello, World!</p>
-    <script src="./js/index.js"></script>
+    <section class="poem">
+        <section class="head" onclick="alertPoet()">
+            <p id="title">반짝이고 있다, 너는</p>
+        </section>
+        <section class="text">
+            <section class="caluse">
+                <p>너는 내게 묻는다.</p>
+                <p>어린 날처럼 티 없이 반짝이던 적</p>
+                <p>언제였더라</p>
+            </section>
+            <section class="caluse">
+                <p>불꽃같음은 사그라졌을지라도</p>
+                <p>더 큰 별빛 머금은 지금의 네가</p>
+                <p>너는 보이지 않나 보다.</p>
+            </section>
+            <section class="caluse">
+                <p>너는 이렇게나 반짝이고 있는데.</p>
+            </section>
+            <section class="caluse">
+                <p>한번도,</p>
+                <p>그러하지 않은 적 없이.</p>
+            </section>
+        </section>
+    </section>
+    <script src="./js/index.js"></script>  
 </body>
 
 </html>
